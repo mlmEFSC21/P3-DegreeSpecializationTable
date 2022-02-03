@@ -52,6 +52,5 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: var(--clr-prime);
-    text-decoration: underline;
+    color: blue;
 }

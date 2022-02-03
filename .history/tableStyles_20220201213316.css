@@ -53,5 +53,4 @@ a {
 }
 a:hover {
     color: var(--clr-prime);
-    text-decoration: underline;
 }

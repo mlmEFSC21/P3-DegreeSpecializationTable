@@ -23,10 +23,6 @@ body {
     justify-content: center;
     background-color: var(--clr-background);
 }
-caption {
-    letter-spacing: 0.15rem;
-    font-weight: 900;
-}
 table {
     border-collapse: collapse;
     box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.2);
@@ -34,24 +30,9 @@ table {
     padding: 0.25rem;
 }
 thead {
-    letter-spacing: 0.15rem;
-    font-size: 0.85rem;
-    font-weight: 900;
-}
-th {
-    border: 1px solid black;
-    padding: 0.5rem 1rem;
-}
-td {
-    border: 1px solid black;
-    padding: 0.5rem 1rem;
-    align-items: center;
-    justify-content: center;
+    border-bottom: 1px solid black;
+    margin-left: 2px;
 }
 a {
     text-decoration: none;
-}
-a:hover {
-    color: var(--clr-prime);
-    text-decoration: underline;
 }

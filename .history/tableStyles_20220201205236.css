@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400&display=swap");
+
+:root {
+    --clr-prime: #003c5e;
+    --clr-second: #1a2028;
+    --clr-accent: #8fb500;
+    --clr-font-prime: #5b8ead;
+    --clr-font-second: black;
+    --clr-background: #cdcdcd;
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Spectral, sans-serif;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-background);
+}
+table {
+}
+a {
+    text-decoration: none;
+}
